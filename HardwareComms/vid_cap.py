@@ -42,9 +42,6 @@ class vid_capture:
 
 if __name__ == "__main__":
     vis = vid_capture("onBoard")
-    #cap = cv.VideoCapture(0)
-    
-    #time.sleep(2)
     
     for i in range(0, 50):
         #ret, frame = cap.read()
